@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box; /* Ensure padding and border are included in total width and height */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2C2C2C; /* Dark gray background */
+    color: #E8E8E8; /* Light gray text for better contrast */
+    display: flex; /* Flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+    min-height: 100vh; /* Ensure body takes at least full viewport height */
+}
+
+header {
+    background-color: #4E3B31; /* Dark earthy brown */
+    color: #E8E8E8; /* Light gray text */
+    padding: 10px 20px; /* Padding for the header */
+    text-align: left; /* Align text to the left */
+    width: 100%; /* Full width */
+    overflow-x: auto; /* Allow horizontal scrolling */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* No padding */
+    margin: 0; /* No margin */
+}
+
+nav ul li {
+    display: inline; /* Horizontal list */
+    margin-right: 15px; /* Spacing between items */
+}
+
+nav ul li a {
+    color: #E8E8E8; /* Light gray link color */
+    text-decoration: none; /* No underline */
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+main {
+    padding: 20px; /* Padding for the main content */
+    overflow-y: auto; /* Allow vertical scrolling if needed */
+}
+
+section {
+    background-color: #3C3C3C; /* Darker gray for sections */
+    margin: 10px 0; /* Margin between sections */
+    padding: 20px; /* Padding within sections */
+    border-radius: 5px; /* Rounded corners for sections */
+}
+
+h2, h3 {
+    color: #E8E8E8; /* Light color for headings for contrast */
+}
+
+/* Specific styling for the thank-you message */
+#thank-you {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#thank-you p {
+    font-size: 1.2em; /* Slightly larger font for the thank you message */
+    margin-top: 20px;
+}
+
+#thank-you a {
+    color: #ADD8E6; /* Light blue color for the link */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Make the link bold for emphasis */
+}
+
+#thank-you a:hover {
+    color: #87CEFA; /* Lighter blue color when hovering */
+    text-decoration: underline; /* Underline on hover */
+}
+
+footer {
+    background-color: #4E3B31; /* Dark earthy brown */
+    color: #E8E8E8; /* Light gray text */
+    text-align: center; /* Centered text */
+    padding: 0; /* No padding for a thinner footer */
+    margin: -20px 0 0; /* Add margin to the top of the footer for spacing */
+    height: 40px; /* Fixed height for consistency */
+    line-height: 20px; /* Center text vertically within the fixed height */
+    width: 100%; /* Full width */
+    position: relative; /* Normal position */
+}

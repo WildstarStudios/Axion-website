@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Downloading Axion Engine</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to styles.css -->
+    <script>
+        // Automatically start the download when the page loads
+        window.onload = function() {
+            // Set the download link
+            const downloadLink = document.createElement('a');
+            downloadLink.href = 'https://github.com/godotengine/godot/releases/download/4.3-stable/Godot_v4.3-stable_win64.exe.zip'; // Download link
+            downloadLink.download = 'Axion_Engine.zip'; // Optional: Name the file to be downloaded
+            downloadLink.click();
+        };
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Axion Engine</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="plans.html">Plans</a></li>
+                <li><a href="download.html">Download</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="thank-you">
+            <h2>Thank You for Downloading Axion Engine!</h2>
+            <p>Your download will begin shortly. If it doesn't, <a href="https://github.com/godotengine/godot/releases/download/4.3-stable/Godot_v4.3-stable_win64.exe.zip">click here</a> to retry.</p>
+            <p>If you encounter any issues during installation or have any questions, feel free to visit our <a href="https://github.com/your-github-repo" target="_blank">Support</a> page or reach out to the community for assistance.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Axion Engine</p>
+    </footer>
+</body>
+</html>
